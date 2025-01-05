@@ -15,6 +15,7 @@ body {
   background-color: #1b1717;
   font-family: "Pretendard Variable",
     "Pretendard", sans-serif;
+  overflow-x: hidden;
 }
 
 video {
@@ -25,7 +26,6 @@ video {
 
 @media (max-width: 1000px) {
   video {
-    width: auto;
     height: 100vh;
   }
 }
@@ -35,11 +35,11 @@ video {
 }
 
 /* section */
-.section {}
+.section {
+  height: 100vh;
+}
 
 /* section - 1 */
-.section-1 {}
-
 .section-1 .video-wrap {
   position: relative;
 }
@@ -94,7 +94,7 @@ video {
   letter-spacing: 0.08em;
   margin-top: 60px;
 }
-
+ */
 .side-scroll {
   background-color: #1b1717;
   display: flex;
@@ -134,4 +134,4 @@ video {
 
 .side-scroll-item+.side-scroll-item {
   margin-left: 60px;
-} */
+}
