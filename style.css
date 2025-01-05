@@ -23,6 +23,13 @@ video {
   object-fit: cover;
 }
 
+@media (max-width: 1000px) {
+  video {
+    width: auto;
+    height: 100vh;
+  }
+}
+
 :root {
   --title-color: #FFC100;
 }
